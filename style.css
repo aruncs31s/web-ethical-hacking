@@ -3,7 +3,7 @@
 *{
   color: #ffffff;
   text-align: justify;
-  background: #141414;
+  /*background: #141414;*/
   margin: 2px; 
     padding: 0%;
     box-sizing: border-box;
@@ -13,14 +13,22 @@
 header h2{
     text-align: center;
 }
-.button button{
+/*.button button{
     background: rosybrown;
     align-items: justify;
     font-size: 10px;
     margin: 5px;
-}
-.home{
+}*/
+.home {
+  
   margin-top: 20px;
+  backface-visibility: 60%;
+  background-image: url("./images/thinkpad.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 100%;
+  background-color: ;
+  
   
 }
 .home .title{
@@ -31,5 +39,6 @@ header h2{
   font-size: 20px;
   color: greenyellow;
 }
-
-
+ .basics .lists{
+  margin-left: 10px;
+}
